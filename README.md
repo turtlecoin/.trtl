@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/34389545/56409412-8f1c4600-623e-11e9-961b-ed57382df370.png)
 
-### Domain system for .trtl TLD
+# Domain system for .trtl TLD
 ![image](https://img.shields.io/discord/388915017187328002.svg?label=TRTL%20Discord%20&style=popout-square)  
 Join us on [Discord](http://chat.turtlecoin.lol)
 
