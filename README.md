@@ -30,7 +30,7 @@ $TTL      604800    ; (1 week)
 trtl      IN        NS       ns1.trtl.
 $ORIGIN trtl.
 google    IN        A        8.8.8.8
-ns1       IN        NS       0.0.0.0
+ns1       IN        NS       142.93.1.231
 ns2       IN        NS       104.248.57.4
 
 yourname  IN        A        your.ip.goes.here
