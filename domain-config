@@ -12,5 +12,5 @@ $TTL      604800    ; (1 week)
 
 trtl      IN        NS        ns1.trtl.
 $ORIGIN trtl.
-google    IN        NS        8.8.8.8
-ns1       IN        NS        0.0.0.0
+google    IN        A        8.8.8.8
+ns1       IN        A        0.0.0.0
