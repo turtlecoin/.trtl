@@ -1,13 +1,13 @@
 ![image](https://user-images.githubusercontent.com/34389545/56409412-8f1c4600-623e-11e9-961b-ed57382df370.png)
 
 ### Domain system for .trtl TLD
-![image](https://img.shields.io/discord/388915017187328002.svg?label=TRTL%20Discord%20&style=popout-square)
+![image](https://img.shields.io/discord/388915017187328002.svg?label=TRTL%20Discord%20&style=popout-square)  
 Join us on [Discord](http://chat.turtlecoin.lol)
 
 This repo holds the DNS config for Bind9 serving the .trtl TLD. New domains should follow the format in the config.
 
 # Applying for a domain
-[Fill out the form here](https://github.com/turtlecoin/.trtl/issues/new?assignees=&labels=REQUEST&template=-trtl-tld-domain-application.md&title=%5BREQUEST%5D+YourDomainHere.trtl) to apply for a domain. Take a moment to [read the guidelines](https://github.com/turtlecoin/.trtl/issues/1) before submitting an application.
+[Fill out the form here](https://github.com/turtlecoin/.trtl/issues/new?assignees=&labels=REQUEST&template=-trtl-tld-domain-application.md&title=%5BREQUEST%5D+YourDomainHere.trtl) to apply for a domain.
 
 # What to do after creating your application
 Domains are added by pull-request only when the associated application has been approved. All pull requests for adding a domain require a link to an approved application.
@@ -34,12 +34,15 @@ ns1       IN        A        0.0.0.0
 yourname  IN        A        your.ip.goes.here
 ```
 
+# Domain Guidelines
+Your domain must follow our guidelines laid out [here](https://github.com/turtlecoin/.trtl/issues/1)  
+Additionally, it may not be any of the [reserved domains](https://github.com/turtlecoin/.trtl/issues/2)
+
+
 ## TODO
-[Needs Work] domain contact crawlier for whois-like info. indexed from approved domain applications
 
-[In Progress] repo monitor agent
-
-[In Progress] [domain guidelines](https://github.com/turtlecoin/.trtl/issues/1)
-
-[DONE] issue temnplates for domain application & complaints
+- [ ] domain contact crawlier for whois-like info. indexed from approved domain applications  
+- [ ] repo monitor agent  
+- [x] Mentioning domain guidelines
+- [x] Issue templates for domain application and complaints
 
