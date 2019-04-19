@@ -1,0 +1,16 @@
+;
+; BIND data file for TLD ".trtl"
+;
+$TTL      604800    ; (1 week)
+@         IN        SOA       trtl. root.trtl. (
+2019042000          ; serial (timestamp)
+604800              ; refresh (1 week)
+86400               ; retry (1 day)
+2419200             ; expire (28 days)
+604800 )            ; minimum (1 week)
+;
+
+trtl      IN        NS        ns1.trtl.
+$ORIGIN trtl.
+google    IN        NS        8.8.8.8
+ns1       IN        NS        0.0.0.0
