@@ -1,4 +1,4 @@
-# .trtl
+![image](https://user-images.githubusercontent.com/34389545/56409412-8f1c4600-623e-11e9-961b-ed57382df370.png)
 Domain system for .trtl TLD
 This repo holds the DNS config for Bind9 serving the .trtl TLD. New domains should follow the format in the config.
 
