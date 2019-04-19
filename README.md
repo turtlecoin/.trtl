@@ -3,9 +3,9 @@ Domain system for .trtl TLD
 This repo holds the DNS config for Bind9 serving the .trtl TLD. New domains should follow the format in the config.
 
 # Applying for a domain
-[Fill out the form here](https://github.com/turtlecoin/.trtl/issues/new?assignees=&labels=REQUEST&template=-trtl-tld-domain-application.md&title=%5BREQUEST%5D+YourDomainHere.trtl) and wait patiently.
+[Fill out the form here](https://github.com/turtlecoin/.trtl/issues/new?assignees=&labels=REQUEST&template=-trtl-tld-domain-application.md&title=%5BREQUEST%5D+YourDomainHere.trtl) to apply for a domain. Take a moment to [read the guidelines](https://github.com/turtlecoin/.trtl/issues/1) before submitting an application.
 
-# Adding your domain
+# What to do after creating your application
 Domains are added by pull-request only when the associated application has been approved. All pull requests for adding a domain require a link to an approved application.
 
 To add your domain, fill in the information marked below in alphabetical order.
@@ -31,7 +31,7 @@ yourname  IN        A        your.ip.goes.here
 ```
 
 ## TODO
-[Needs Work] registrar frontend
+[Needs Work] domain contact crawlier for whois-like info. indexed from approved domain applications
 
 [In Progress] repo monitor agent
 
