@@ -27,10 +27,12 @@ $TTL      604800    ; (1 week)
 604800 )            ; minimum (1 week)
 ;
 
-trtl      IN        NS        ns1.trtl.
+trtl      IN        NS       ns1.trtl.
 $ORIGIN trtl.
 google    IN        A        8.8.8.8
-ns1       IN        A        0.0.0.0
+ns1       IN        NS       0.0.0.0
+ns2       IN        NS       104.248.57.4
+
 yourname  IN        A        your.ip.goes.here
 ```
 
