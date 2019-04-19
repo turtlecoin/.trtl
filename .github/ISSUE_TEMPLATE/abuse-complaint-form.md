@@ -2,7 +2,7 @@
 name: Abuse complaint form
 about: File an abuse complaint about a .trtl TLD
 title: "[ABUSE]"
-labels: ''
+labels: ABUSE
 assignees: ''
 
 ---
