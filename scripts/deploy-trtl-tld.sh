@@ -14,10 +14,10 @@ apt-get install bind9
 mv /etc/bind/named.conf /etc/bind/named.conf.backup
 
 # copy the named.conf from github
-curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/named.conf > /etc/bind/named.conf
+curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/named-config > /etc/bind/named.conf
 
 # copy the trtl zone file from github
-curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/domain-config > /etc/bind/trtl.zone
+curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/domain-config > /etc/bind/trtl.zone
 
 # copy named.conf.opennic from github
 curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/named.conf.opennic > /etc/bind/named.conf.opennic
