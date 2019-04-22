@@ -48,12 +48,14 @@
             .pointer {
                 cursor: pointer;
             }
+            .container-fluid {
+                max-width: 1600px;
+            }
         </style>
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col"></div>
+            <div class="row justify-content-center">
                 <div class="col-8">
                     <br />
                     <br />
@@ -67,16 +69,14 @@
                     <br />
                     <br />
                 </div>
-                <div class="col"></div>
             </div>
-            <div class="row" class="padded">
-                <div class="col-2"></div>
-                <div class="col-4"><h1>Simple pricing</h1><p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4"><h1>Simple pricing</h1><p>
                         We made an easy url-length based pricing model that works best for most users.
                     </p>
                 <p><button href="#register" class="btn btn-outline-primary">Register Now &gt;&gt;</button></p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
                 
                 <p>
                 <table class="table table-borderless">
@@ -117,7 +117,6 @@
                         </table>
                     </p>
                 </div>
-                <div class="col-2"></div>
             </div>
             <br />
             <br />
@@ -126,8 +125,7 @@
             <br />
             <br />
             <div class="row">
-                <div class="col"></div>
-                <div class="col-8" href="#faq">
+                <div class="class="col-12 col-sm-10 col-md-8 col-lg-11 col-xl-8" id="#faq">
                         <h1 class="heading">Frequently Asked Questions</h1>
 
             <br />
@@ -157,11 +155,11 @@
                         <p class="text-secondary">
                             For the moment you get either a CNAME or A/AAAA
                             record. Once everything is completely automated
-                            we'll looking into offering full subdomain space.
+                            we'll looking into offering full sub-domain space.
                             For the moment if you get the-box.trtl then in 
                             the future you would have the option to fully
                             use the whole sub-domain. So right now all you'll
-                            get is the-box.trtl and be able to point it an 
+                            get is the-box.trtl and be able to point it at an 
                             IP address or CNAME.
                         </p>
                     </div>
@@ -261,7 +259,6 @@
                         </p>
                     </div>
                 </div>
-                <div class="col"></div>
             </div>
 
             <br />
@@ -270,14 +267,13 @@
             <br />
             <br />
             <br />
-            <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4">
+            <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
                         <h1>Getting started is easy</h1>
                         <p>Whether you're a user or a developer, we have simple instructions to get started now.</p>
 
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
                         <h4>For Users</h1>
                             <p class="text-secondary">Download the BlockChainDNS plugin for your browser.</p>
                             <button href="https://chrome.google.com/webstore/detail/blockchain-dns/hlnmiaddfabbklljanmdilbngnookdgn?hl=en" class="btn btn-outline-primary">Chrome Extension</button>
@@ -290,7 +286,6 @@
                                 
                             </p>
                     </div>
-                    <div class="col-2"></div>
                 </div>
 
             <br />
@@ -300,27 +295,23 @@
             <br />
             <br />
             <div class="row">
-                    <div class="col"></div>
                     <div class="col">
                         <center>
                             <p class="text-muted muted">
                                 <small>Made with &hearts; by the TurtleCoin Developers</small>
                             </p>
                         </center></div>
-                    <div class="col"></div>
                 </div>
-            <script>
-                //close faq toggle 
-               $('body').on('click', '[data-toggle="collapse"]', function () {
-                var collapsedId = $(this).attr('href');
-                var isVisible = $(collapsedId + ' .panel-body').is(':visible');
-
-                    if (isVisible == true) {
-                        $(collapsedId).collapse('hide');
-                        return false;
-                    }
-                })
-           </script>
+              <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
         
     </body>
 </html>
