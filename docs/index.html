@@ -38,7 +38,7 @@
                 text-decoration: none;
                 color: "#212721";
             }
-            p {
+            li, p {
                 font-family: "Montserrat", sans-serif;
             }
             .heading {
@@ -88,29 +88,34 @@
                         </thead>
                         <tbody>
                                 <tr>
-                                    <th scope="row" class="text-secondary">5+ Characters</th>
+                                    <th scope="row" class="text-secondary">6+ Characters</th>
                                     <td>15,000 TRTL</td>
-                                    <td class="text-secondary" class="text-secondary">1 Year</td>
+                                    <td class="text-secondary">1 Year</td>
                                 </tr>
                                 <tr>
-                                    <th class="text-secondary" scope="row">4 Characters</th>
+                                    <th class="text-secondary">5 Characters</th>
                                     <td>150,000 TRTL</td>
                                     <td class="text-secondary">1 Year</td>
                                 </tr>
                                 <tr>
-                                    <th class="text-secondary" scope="row">3 Characters</th>
+                                    <th class="text-secondary" scope="row">4 Characters</th>
                                     <td>375,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
+                                    <td class="text-secondary">1 Year*</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-secondary" scope="row">3 Characters</th>
+                                    <td>750,000 TRTL</td>
+                                    <td class="text-secondary">1 Year*</td>
                                 </tr>
                                 <tr>
                                     <th class="text-secondary" scope="row">2 Characters</th>
-                                    <td>750,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
+                                    <td>1,500,000 TRTL</td>
+                                    <td class="text-secondary">1 Year*</td>
                                 </tr>
                                 <tr>
                                     <th class="text-secondary" scope="row">1 Character</th>
-                                    <td>1,500,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
+                                    <td>15,000,000 TRTL</td>
+                                    <td class="text-secondary">1 Year*</td>
                                 </tr>
                         </tbody>
                         </table>
@@ -169,8 +174,8 @@
                     >
                         ⌄ Can I use LetsEncrypt?
                     </h2>
-                    <div class="collapse" id="certs">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="certs">
+                        <p>
                             Certificates are a technical limitation that we
                             haven't overcome at the moment. Read more about this
                             issue <a href="https://community.letsencrypt.org/t/do-you-support-opennic-top-level-domains/4473">here</a>.
@@ -183,8 +188,8 @@
                     >
                         ⌄ How much are .trtl domains?
                     </h2>
-                    <div class="collapse" id="prices">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="prices">
+                        <p>
                             Currently our pricing is based on the length of the name, for a one year term. We're always looking at better ways to do things though, so keep your eyes peeled and you just might spot a deal that works for your project.
                         </p>
                     </div>
@@ -195,8 +200,8 @@
                     >
                         ⌄ What's going on with my application?
                     </h2>
-                    <div class="collapse" id="applicationprocess">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="applicationprocess">
+                        <p>
                             All applications go through a review process for now
                             until we can automate the approval process. Leave us
                             a message on github or check the status of your
@@ -210,8 +215,8 @@
                     >
                         ⌄ How does recurring billing work?
                     </h2>
-                    <div class="collapse" id="billing">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="billing">
+                        <p>
                             The application that you submit to get your domain
                             also serves as our primary form of contact and
                             record keeping for your account. There is no private
@@ -225,8 +230,8 @@
                     >
                         ⌄ Can I have a refund?
                     </h2>
-                    <div class="collapse" id="refund1">
-                        <p class="text-secondary">No.</p>
+                    <div class="collapse text-secondary" id="refund1">
+                        <p>No.</p>
                     </div>
                     <h2
                         class="heading pointer"
@@ -236,8 +241,8 @@
                         ⌄ No seriously, can I get a refund?
                     </h2>
 
-                    <div class="collapse" id="refund2">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="refund2">
+                        <p>
                             This service distributes all profits back into the
                             community by automatically dispersing the funds into
                             block rewards for miners over a period of a few
@@ -251,11 +256,61 @@
                     >
                         ⌄ Can I register for longer than a year?
                     </h2>
-                    <div class="collapse" id="lease">
-                        <p class="text-secondary">
+                    <div class="collapse text-secondary" id="lease">
+                        <p>
                             At this time, 1 year is the longest domain lease we
                             offer.
                         </p>
+                    </div>
+                    <h2
+                        class="heading pointer"
+                        data-toggle="collapse"
+                        href="#endof1yr"
+                    >
+                        ⌄ What happens after 1 year?
+                    </h2>
+                    <div class="collapse text-secondary" id="endof1yr">
+                        <p>
+                            If the renewal fee has not been paid by the expiry
+                            date then the domain goes into a 15 day rest period before
+                            being made available again to be used. During this 15 day
+                            rest period all dns records related will be purged and
+                            the prior owner is able to process a new application to
+                            obtain the name again.
+                        </p>
+                    </div>
+                    <h2
+                        class="heading pointer"
+                        data-toggle="collapse"
+                        href="#fineprint"
+                    >
+                        ⌄ * Fine Print - Use it or lose it.
+                    </h2>
+                    <div class="collapse text-secondary" id="fineprint">
+                        <p>
+                            This system is supposed to be used, there is no place for
+                            squating. In order for this system to be fair and work out
+                            well for all here are some simple guidelines to qualify
+                            for "in use" status:
+                        </p>
+                        <ol>
+                            <li>
+                                there is an inital 45 day grace period to actually use
+                                the domain. Coming soon, ads, parking type pages are not
+                                eligible to qualify for "in use".
+                            </li>
+                            <li>
+                                once this grace period has finished and the domain is
+                                "in use" whatever it is must remain up 24/7. After 72hrs
+                                on downtime the domain is returned to the pool.
+                            </li>
+                            <li>
+                                when a domain is lost for not being "in use" the domain is
+                                unavailable for 15 days. During this time a case could be
+                                put forth to have the domain returned. Else wait for domain
+                                to become available again.
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
