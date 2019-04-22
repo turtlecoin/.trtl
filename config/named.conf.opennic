@@ -1,0 +1,273 @@
+#
+# OpenNIC zone config - file created by ns1
+# Generated on Friday, 19 Apr 2019 at 19:23:09
+#
+
+zone "." in {
+        type slave;
+        file "/var/cache/bind/opennic/tld-root";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "bbs" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/bbs.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "bit" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/bit.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "chan" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/chan.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "cyb" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/cyb.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "dns.opennic.glue" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/dns.opennic.glue.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "dyn" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/dyn.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "geek" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/geek.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "gopher" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/gopher.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "indy" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/indy.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "libre" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/libre.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "neo" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/neo.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "null" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/null.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "o" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/o.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "opennic.glue" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/opennic.glue.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "oss" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/oss.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "oz" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/oz.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "parody" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/parody.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+zone "pirate" in {
+        type slave;
+        file "/var/cache/bind/opennic/slave/pirate.zone";
+        notify no;
+        masters {
+                75.127.96.89;                           # ns0.opennic.glue
+                45.56.115.189;                          # ns0.opennic.glue
+                45.56.116.224;                          # ns0.opennic.glue
+                2001:470:1f0e:8a0::2;                   # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1ba;         # ns0.opennic.glue
+                2600:3c02::f03c:91ff:fe33:e1d9;         # ns0.opennic.glue
+        };
+};
+
+
+
