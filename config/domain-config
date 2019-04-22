@@ -1,6 +1,7 @@
 ;
 ; BIND data file for TLD ".trtl"
-;
+; 
+
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
 2019042101          ; serial (timestamp)
