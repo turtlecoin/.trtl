@@ -3,7 +3,7 @@
 ;
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
-2019042110          ; serial (timestamp)
+2019042111          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
