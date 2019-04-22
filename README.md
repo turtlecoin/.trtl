@@ -19,21 +19,25 @@ To add your domain, fill in the information marked below in alphabetical order.
 ; BIND data file for TLD ".trtl"
 ;
 $TTL      604800    ; (1 week)
-@         IN        SOA       trtl. root.trtl. (
-2019042000          ; serial (timestamp)
+trtl.         IN        SOA       trtl. root.trtl. (
+2019042201          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
 604800 )            ; minimum (1 week)
 ;
 
-trtl      IN        NS       ns1.trtl.
+trtl.      IN        NS       ns1.trtl.
+trtl.      IN        NS       ns2.trtl.
+
 $ORIGIN trtl.
 google    IN        A        8.8.8.8
-ns1       IN        NS       142.93.1.231
-ns2       IN        NS       104.248.57.4
+ns1       IN        A       142.93.1.231
+ns2       IN        A       104.248.57.4
 
-yourname  IN        A        your.ip.goes.here
+; testing domain
+edu       IN        A        188.166.7.218
+extra     IN        A        142.93.21.48
 ```
 
 # Domain Guidelines
