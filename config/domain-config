@@ -3,7 +3,7 @@
 ;
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
-2019042201          ; serial (timestamp)
+2019042301          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
@@ -31,3 +31,6 @@ pay       IN        NS      ns4.hostmanager.org.
 ; testing domain
 edu       IN        A        188.166.7.218
 extra     IN        A        142.93.21.48
+
+; user domains
+myturtlesite  IN    CNAME    brandonlehmann.github.io.
