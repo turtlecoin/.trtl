@@ -1,14 +1,15 @@
 ;
 ; BIND data file for TLD ".trtl"
 ;
+
+      
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
-2019042302          ; serial (timestamp)
+2019042303          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
 604800 )            ; minimum (1 week)
-;
 
 trtl.      IN        NS       ns1.trtl.
 trtl.      IN        NS       ns2.trtl.
@@ -32,4 +33,9 @@ pay       IN        NS      ns4.hostmanager.org.
 edu       IN        A        188.166.7.218
 extra     IN        A        142.93.21.48
 
-; user domains
+; communities
+$INCLUDE /etc/bind/dev.trtl.zone     ; developers
+$INCLUDE /etc/bind/user.trtl.zone    ; user pages
+$INCLUDE /etc/bind/pool.trtl.zone    ; mining pools
+$INCLUDE /etc/bind/fork.trtl.zone    ; trtl forks
+$INCLUDE /etc/bind/bot.trtl.zone     ; bot domains

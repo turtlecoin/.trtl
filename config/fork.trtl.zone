@@ -1,0 +1,5 @@
+; This is where you add a new domain
+; Copy line 5, and paste it with your site's info at the bottom of this file.
+; Don't forget to remove the semicolon at the beginning of your line.
+; 
+; turtleshirtshop       IN        A       164.93.1.31 ; turtleshirtshop.fork.trtl

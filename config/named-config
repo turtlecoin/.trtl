@@ -45,3 +45,37 @@ logging {
         category default { null; };
 };
 
+zone "dev.trtl" {
+        type master;
+        file "/etc/bind/dev.trtl.zone";
+        allow-transfer { any;};
+        allow-query { any;};
+};
+
+zone "user.trtl" {
+        type master;
+        file "/etc/bind/user.trtl.zone";
+        allow-transfer { any;};
+        allow-query { any;};
+};
+
+zone "pool.trtl" {
+        type master;
+        file "/etc/bind/pool.trtl.zone";
+        allow-transfer { any;};
+        allow-query { any;};
+};
+
+zone "fork.trtl" {
+        type master;
+        file "/etc/bind/fork.trtl.zone";
+        allow-transfer { any;};
+        allow-query { any;};
+};
+
+zone "bot.trtl" {
+        type master;
+        file "/etc/bind/bot.trtl.zone";
+        allow-transfer { any;};
+        allow-query { any;};
+};
