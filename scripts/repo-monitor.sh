@@ -23,7 +23,8 @@ cp /root/.trtl/config/named-config /etc/bind/named.conf
 echo "[**] Moving named-config to named.conf"
 cp /root/.trtl/config/named.conf.opennic /etc/bind/named.conf.opennic
 echo "[**] Copying opennic conf"
-/etc/init.d/bind9 restart
+/etc/init.d/bind9 reload
+sleep 5
 echo ""
 /etc/init.d/bind9 status
 sleep 5
