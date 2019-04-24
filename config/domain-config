@@ -3,7 +3,7 @@
 ;
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
-2019042409          ; serial (timestamp)
+2019042410          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
@@ -34,8 +34,8 @@ pay       IN        NS      ns4.hostmanager.org.
 ; domain(s)
 edu           IN        A       188.166.7.218
 extra         IN        A       142.93.21.48
-; turtleturtle  IN        CNAME   redirect.trtl.
-; turtleturtle  IN        TXT     "redirect=301;url=http://turtleturtle.org"
+turtleturtle  IN        CNAME   redirect.trtl.
+_redirect.turtleturtle  IN        TXT     "redirect=301;url=http://turtleturtle.org"
 
 ; communities
 $INCLUDE /etc/bind/dev.trtl.zone     ; developers
