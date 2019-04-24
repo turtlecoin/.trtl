@@ -3,7 +3,7 @@
 ;
 $TTL      604800    ; (1 week)
 trtl.         IN        SOA       trtl. root.trtl. (
-2019042406          ; serial (timestamp)
+2019042407          ; serial (timestamp)
 604800              ; refresh (1 week)
 86400               ; retry (1 day)
 2419200             ; expire (28 days)
@@ -19,6 +19,7 @@ ns2       IN        A       104.248.57.4
 
 ; redirector for HTTP redirect service
 redirect  IN        A       142.93.250.51
+redirect  IN        TXT     "redirect=301;url=https://trtlnic.com"
 
 ; delegated zones
 turtlepay IN        NS      ns1.hostmanager.org.
