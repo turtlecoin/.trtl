@@ -3,3 +3,6 @@
 ; Don't forget to remove the semicolon at the beginning of your line.
 ; 
 ; turtleshirtshop       IN        A       164.93.1.31 ; turtleshirtshop.fork.trtl
+$ORIGIN fork.trtl.
+
+wrkz                    IN        CNAME   fork.wrkz.work. ; Issue #18
