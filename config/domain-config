@@ -19,7 +19,7 @@ ns2       IN        A       104.248.57.4
 
 ; redirector for HTTP redirect service
 redirect  IN        A       142.93.250.51
-redirect  IN        TXT     "redirect=301;url=https://trtlnic.com"
+; redirect  IN        TXT     "redirect=301;url=https://trtlnic.com"
 
 ; delegated zones
 turtlepay IN        NS      ns1.hostmanager.org.
@@ -35,7 +35,7 @@ pay       IN        NS      ns4.hostmanager.org.
 edu           IN        A       188.166.7.218
 extra         IN        A       142.93.21.48
 turtleturtle  IN        CNAME   redirect.trtl.
-turtleturtle  IN        TXT     "redirect=301;url=http://turtleturtle.org"
+; turtleturtle  IN        TXT     "redirect=301;url=http://turtleturtle.org"
 
 ; communities
 $INCLUDE /etc/bind/dev.trtl.zone     ; developers
