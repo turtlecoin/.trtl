@@ -4,3 +4,5 @@
 ; 
 ; turtleshirtshop       IN        A       164.93.1.31 ; turtleshirtshop.user.trtl
 $ORIGIN user.trtl.
+
+fexra                   IN        A       139.162.155.73 ; Issue #7
