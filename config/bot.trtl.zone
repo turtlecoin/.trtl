@@ -4,3 +4,5 @@
 ; 
 ; turtleshirtshop       IN        A       164.93.1.31 ; turtleshirtshop.bot.trtl
 $ORIGIN bot.trtl.
+
+markettalk              IN        A       142.93.21.48 ; Issue #5
