@@ -22,18 +22,19 @@ redirect                IN        A       142.93.250.51
 _redirect.redirect      IN        TXT     "redirect=301;url=https://trtlnic.com"
 
 ; delegated zones
-turtlepay               IN        NS      ns1.hostmanager.org.
-turtlepay               IN        NS      ns2.hostmanager.org.
-turtlepay               IN        NS      ns3.hostmanager.org.
-turtlepay               IN        NS      ns4.hostmanager.org.
-pay                     IN        NS      ns1.hostmanager.org.
-pay                     IN        NS      ns2.hostmanager.org.
-pay                     IN        NS      ns3.hostmanager.org.
-pay                     IN        NS      ns4.hostmanager.org.
+turtlepay               IN        NS      ns1.hostmanager.org. ; Issue #4
+turtlepay               IN        NS      ns2.hostmanager.org. ; Issue #4
+turtlepay               IN        NS      ns3.hostmanager.org. ; Issue #4
+turtlepay               IN        NS      ns4.hostmanager.org. ; Issue #4
+pay                     IN        NS      ns1.hostmanager.org. ; Issue #4
+pay                     IN        NS      ns2.hostmanager.org. ; Issue #4
+pay                     IN        NS      ns3.hostmanager.org. ; Issue #4
+pay                     IN        NS      ns4.hostmanager.org. ; Issue #4
 
 ; domain(s)
 edu                     IN        A       188.166.7.218
-extra                   IN        A       142.93.21.48
+extra                   IN        A       142.93.21.48 ; Issue #6
+mediatao                IN        A       62.210.137.119 ; Issue #9
 
 explorer                IN        CNAME   redirect.trtl.
 _redirect.explorer      IN        TXT     "redirect=301;url=https://explorer.turtlecoin.lol"
