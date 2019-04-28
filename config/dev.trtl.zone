@@ -4,3 +4,6 @@
 ; 
 ; turtleshirtshop       IN        A       164.93.1.31 ; turtleshirtshop.dev.trtl
 $ORIGIN dev.trtl.
+
+slash                   IN        CNAME   redirect.trtl. ; Issue #25
+_redirect.slash         IN        TXT     "redirect=301;url=https://github.com/4reallive"
