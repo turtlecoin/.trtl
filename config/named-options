@@ -1,0 +1,12 @@
+options {
+        directory "/var/cache/bind";
+        dnssec-enable yes;
+        dnssec-validation yes;
+        recursion yes;
+        dnssec-lookaside auto;
+        allow-query { any; };
+        auth-nxdomain no;    # conform to RFC1035
+	# Change this line to listen on a specific address, e.g.:
+	# listen-on { 192.168.144.120; };
+        listen-on-v6 { any; };
+};
