@@ -51,7 +51,7 @@ fi
 
 echo ""
 ## Optionally copy the existing configs to the $TRTL_ARCHIVE/archived directory.
-## You will be responsible for log rotation.
+## You will be responsible for backup rotation.
 #echo "[**] Moving old config to $TRTL_ARCHIVE/archived/"
 #mkdir -p $TRTL_ARCHIVE/archived
 #gzip -c $TRTL_BIND_CONF/named.conf > "$TRTL_ARCHIVE/archived/named-config.$(date +%F-%H-%M).backup.gz"
