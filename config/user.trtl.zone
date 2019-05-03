@@ -6,3 +6,4 @@
 $ORIGIN user.trtl.
 
 fexra                   IN        A       139.162.155.73 ; Issue #7
+greywolf                IN        A       50.62.67.1 ; Issue #28
