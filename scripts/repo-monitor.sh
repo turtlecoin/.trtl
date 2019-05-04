@@ -70,6 +70,7 @@ cp -f $TRTL_TMP/.trtl/config/dev.trtl.zone $TRTL_BIND_CONF/dev.trtl.zone
 cp -f $TRTL_TMP/.trtl/config/fork.trtl.zone $TRTL_BIND_CONF/fork.trtl.zone
 cp -f $TRTL_TMP/.trtl/config/pool.trtl.zone $TRTL_BIND_CONF/pool.trtl.zone
 cp -f $TRTL_TMP/.trtl/config/user.trtl.zone $TRTL_BIND_CONF/user.trtl.zone
+cp -f $TRTL_TMP/.trtl/config/node.trtl.zone $TRTL_BIND_CONF/node.trtl.zone
 echo "[**] Moving named-config to named.conf..."
 cp -f $TRTL_TMP/.trtl/config/named-config $TRTL_BIND_CONF/named.conf
 echo "[**] Copying opennic conf..."

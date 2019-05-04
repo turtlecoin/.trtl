@@ -55,3 +55,4 @@ $INCLUDE /etc/bind/user.trtl.zone    ; user pages
 $INCLUDE /etc/bind/pool.trtl.zone    ; mining pools
 $INCLUDE /etc/bind/fork.trtl.zone    ; trtl forks
 $INCLUDE /etc/bind/bot.trtl.zone     ; bot domains
+$INCLUDE /etc/bind/node.trtl.zone    ; public nodes

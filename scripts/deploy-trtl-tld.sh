@@ -35,6 +35,7 @@ curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/dev.trtl.z
 curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/fork.trtl.zone > /etc/bind/fork.trtl.zone
 curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/pool.trtl.zone > /etc/bind/pool.trtl.zone
 curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/user.trtl.zone > /etc/bind/user.trtl.zone
+curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/node.trtl.zone > /etc/bind/node.trtl.zone
 
 ## Copy named.conf.opennic from github.
 curl https://raw.githubusercontent.com/turtlecoin/.trtl/master/config/named.conf.opennic > /etc/bind/named.conf.opennic
