@@ -7,3 +7,6 @@ $ORIGIN dev.trtl.
 
 slash                   IN        CNAME   redirect.trtl. ; Issue #25
 _redirect.slash         IN        TXT     "redirect=301;url=https://github.com/4reallive"
+
+rashedmyt               IN        CNAME   redirect.trtl. ; Issue #31
+_redirect.rashedmyt     IN        TXT     "redirect=301;url=https://rashedmyt.github.io"
