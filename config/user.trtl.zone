@@ -8,3 +8,4 @@ $ORIGIN user.trtl.
 brighttrust             IN        CNAME   brighttrust.whats-in.space. ; Issue #29
 fexra                   IN        A       139.162.155.73 ; Issue #7
 greywolf                IN        A       50.62.67.1 ; Issue #28
+twixtedturtle           IN        A       155.94.140.223 ; Checkpoints hosting plus
