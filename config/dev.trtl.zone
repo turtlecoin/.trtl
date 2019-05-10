@@ -10,3 +10,6 @@ _redirect.slash         IN        TXT     "redirect=301;url=https://github.com/4
 
 rashedmyt               IN        CNAME   redirect.trtl. ; Issue #31
 _redirect.rashedmyt     IN        TXT     "redirect=301;url=https://rashedmyt.github.io"
+
+rocksteady              IN        CNAME   redirect.trtl. ; Issue #31
+_redirect.rocksteady    IN        TXT     "redirect=301;url=http://pages.turtlecoin.lol"
