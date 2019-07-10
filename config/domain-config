@@ -33,7 +33,7 @@ pay                     IN        NS      ns4.hostmanager.org. ; Issue #4
 
 ; domain(s)
 edu                     IN        A       188.166.7.218
-extra                   IN        A       142.93.21.48 ; Issue #6
+extra                   IN        A       68.183.53.229 ; Issue #6
 mediatao                IN        A       62.210.137.119 ; Issue #9
 box                     IN        CNAME   boxtrtl.com. ; Issue #23
 hairyturtle             IN        CNAME   oiboo.github.io. ; Issue #36
