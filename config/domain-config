@@ -49,6 +49,8 @@ extra                   IN        A       68.183.53.229 ; Issue #6
 mediatao                IN        A       62.210.137.119 ; Issue #9
 box                     IN        CNAME   boxtrtl.com. ; Issue #23
 hairyturtle             IN        CNAME   oiboo.github.io. ; Issue #36
+mapping4                IN        CNAME   afterconnery.github.io ; Issue #41
+
 
 explorer                IN        CNAME   redirect.trtl.
 _redirect.explorer      IN        TXT     "redirect=301;url=https://explorer.turtlecoin.lol"
