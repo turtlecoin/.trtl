@@ -50,6 +50,7 @@ mediatao                IN        A       62.210.137.119 ; Issue #9
 box                     IN        CNAME   boxtrtl.com. ; Issue #23
 hairyturtle             IN        CNAME   oiboo.github.io. ; Issue #36
 mapping4                IN        CNAME   afterconnery.github.io ; Issue #41
+karai                   IN        CNAME   karai.io
 
 
 explorer                IN        CNAME   redirect.trtl.
