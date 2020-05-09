@@ -50,8 +50,9 @@ mediatao                IN        A       62.210.137.119 ; Issue #9
 box                     IN        CNAME   boxtrtl.com. ; Issue #23
 hairyturtle             IN        CNAME   oiboo.github.io. ; Issue #36
 mapping4                IN        CNAME   afterconnery.github.io ; Issue #41
-karai                   IN        CNAME   karai.io
 
+karai                   IN        CNAME   redirect.trtl.
+_redirect.karai         IN        TXT     "redirect=301;url=https://karai.io"
 
 explorer                IN        CNAME   redirect.trtl.
 _redirect.explorer      IN        TXT     "redirect=301;url=https://explorer.turtlecoin.lol"
