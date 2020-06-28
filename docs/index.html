@@ -1,421 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-        <title>.trtl TLD Domain Services</title>
-        <meta name="description" content="Domain system for .trtl TLD. ">
-        <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/182200925/df381a00-6483-11e9-81c6-8dbdcf92f095">
-        <meta name="twitter:site" content="@_turtlecoin">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="turtlecoin/.trtl">
-        <meta name="twitter:description" content="Domain system for .trtl TLD. ">
-        <meta property="og:image" content="https://repository-images.githubusercontent.com/182200925/df381a00-6483-11e9-81c6-8dbdcf92f095">
-        <meta property="og:site_name" content=".trtl TLD">
-        <meta property="og:type" content="object">
-        <meta property="og:title" content=".trtl TLD">
-        <meta property="og:url" content="https://dns.turtlecoin.lol">
-
-        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <link
-            href="https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:900"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"
-        ></script>
-        <style>
-            body {
-                font-family: "Roboto", sans-serif;
-                color: "#212721";
-                font-size: 22px;
-            }
-            a {
-                text-decoration: none;
-                color: "#212721";
-            }
-            a:hover {
-                text-decoration: none;
-                color: "#212721";
-            }
-            li, p {
-                font-family: "Montserrat", sans-serif;
-            }
-            .heading {
-                font-family: "Roboto", sans-serif;
-            }
-            .pointer {
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    <body>
-        
-            <br />
-            <div class="row">
-                <div class="col">
-                        <div id="social" class="text-muted float-right">
-                                <a href="http://chat.turtlecoin.lol" class="text-dark" target="_blank"><i class="fab fa-discord"></i></a>&nbsp;&nbsp;&nbsp;
-                                <a href="https://github.com/turtlecoin/.trtl" class="text-dark"target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;
+<!DOCTYPE HTML>
+<!--
+   Stellar by HTML5 UP
+   html5up.net | @ajlkn
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+   -->
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	  
+      <title>.trtl TLD Domain Services</title>
+      <meta name="description" content="Domain system for .trtl TLD. ">
+      <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/182200925/df381a00-6483-11e9-81c6-8dbdcf92f095">
+      <meta name="twitter:site" content="@_turtlecoin">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="turtlecoin/.trtl">
+      <meta name="twitter:description" content="Domain system for .trtl TLD. ">
+      <meta property="og:image" content="https://repository-images.githubusercontent.com/182200925/df381a00-6483-11e9-81c6-8dbdcf92f095">
+      <meta property="og:site_name" content=".trtl TLD">
+      <meta property="og:type" content="object">
+      <meta property="og:title" content=".trtl TLD">
+      <meta property="og:url" content="https://dns.turtlecoin.lol">
+	  
+      <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-60x60.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://turtlecoin.lol/assets/images/favicons/apple-touch-icon-152x152.png" />
+      <link rel="icon" type="image/png" href="https://turtlecoin.lol/assets/images/favicons/favicon-196x196.png" sizes="196x196" />
+      <link rel="icon" type="image/png" href="https://turtlecoin.lol/assets/images/favicons/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/png" href="https://turtlecoin.lol/assets/images/favicons/favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="https://turtlecoin.lol/assets/images/favicons/favicon-16x16.png" sizes="16x16" />
+      <link rel="icon" type="image/png" href="https://turtlecoin.lol/assets/images/favicons/favicon-128.png" sizes="128x128" />
+		
+      <link rel="stylesheet" href="assets/css/main.css" />
+   </head>
+   <body>
+      <!-- Wrapper -->
+      <div id="wrapper">
+         <!-- Nav -->
+         <nav id="nav">
+            <ul class="icons">
+               <li><a href="https://github.com/turtlecoin/.trtl" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+               <li><a href="http://chat.turtlecoin.lol/" target="_blank" class="icon fa-discord alt"><span class="label">Dribbble</span></a></li>
+            </ul>
+         </nav>
+         <!-- Header -->
+         <header id="header" class="alt">
+            <span class="logo"><img src="images/dot-trtl.svg" alt="" /></span>
+            <h1>Domain system for .trtl TLD</h1>
+         </header>
+         <!-- Main -->
+         <div id="main">
+            <!-- Introduction -->
+            <section class="main">
+               <div class="start">
+                  <div class="content">
+                     <div class="row">
+                        <div class="col-6 col-12-medium">
+                           <header class="major">
+                              <h2>Getting started is easy</h2>
+                           </header>
+                           <h3>Whether you're a user or a developer, we have simple instructions to get started now.</h3>
                         </div>
-
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-               
-                <div class="col">
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <center>
-                        <img class="img-fluid" src="dot-trtl.svg" />
-                    </center>
-                    <br />
-                    <center><h3 class="display-3">Domain system for .trtl TLD</h3></center>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                    <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
-                        <h1>Getting started is easy</h1>
-                        <p>Whether you're a user or a developer, we have simple instructions to get started now.</p>
-
-                    </div>
-                    <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
-                        <h4>For Users</h1>
-                            <p class="text-secondary">Download the .trtl plugin for your browser.</p>
-                            <button class="btn btn-lg btn-outline-primary"><a href="https://chrome.google.com/webstore/detail/trtl-dns/bmnaipkfomokpndoimalmbfoebbiapch?hl=en-US" ><i class="fab fa-chrome fa-lg"></i> Chrome Extension</a></button>
-                            <button class="btn btn-lg btn-outline-primary"><a href="https://addons.mozilla.org/en-US/firefox/addon/trtl-dns/"><i class="fab fa-firefox fa-lg"></i> Firefox Plugin</a></button>
-                            <br /><br />
-                        <h4>For Developers</h1>
-                            <p class="text-secondary">
-                                1. Apply <a href="https://github.com/turtlecoin/.trtl/issues/new?assignees=&labels=REQUEST&template=-trtl-tld-domain-application.md&title=%5BREQUEST%5D+YourDomainHere.trtl">here</a> & <a href="https://github.com/turtlecoin/.trtl/blob/master/config/domain-config">PR</a> your records<br />
-                                2. Configure Apache/Nginx & DONE! <br />
-                                
-                            </p>
-                    </div>
-                </div>
-
-                <br />
-                <br />
-                <br />
-                <br />
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-                
-                <p>
-                <table class="table table-borderless">
-                        <thead class="thead-light">
-                            <tr>
-                            <th scope="col">Domain</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Term</th>
-                            </tr>
+                        <div class="col-6 col-12-medium">
+                           <h3>For Users</h3>
+                           <p>Download the .trtl plugin for your browser.</p>
+                           <ul class="actions small">
+                              <li><a href="https://chrome.google.com/webstore/detail/trtl-dns/bmnaipkfomokpndoimalmbfoebbiapch?hl=en-US" target="_blank" class="button small icon fa-chrome">Chrome Extension</a></li>
+                              <li><a href="https://addons.mozilla.org/en-US/firefox/addon/trtl-dns/" target="_blank" class="button small icon fa-firefox">Firefox Plugin</a></li>
+                           </ul>
+                           <h3>For Developers</h3>
+                           <ol>
+                              <li>Apply <a href="https://github.com/turtlecoin/.trtl/issues/new?assignees=&amp;labels=REQUEST&amp;template=-trtl-tld-domain-application.md&amp;title=%5BREQUEST%5D+YourDomainHere.trtl" target="_blank">here</a> &amp; <a href="https://github.com/turtlecoin/.trtl/blob/master/config/domain-config" target="_blank">PR</a> your records.</li>
+                              <li>Configure Apache/Nginx &amp; DONE!</li>
+                           </ol>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- First Section -->
+            <section class="main">
+               <div class="price">
+                  <div class="content">
+                     <div class="row">
+                        <div class="col-6 col-12-medium">
+                           <header class="major">
+                              <h2>Simple pricing</h2>
+                           </header>
+                           <p>We made an easy url-length based pricing model that works best for most users. If you'd like to know more about the Free Tier of domains we offer, click <a href="https://github.com/turtlecoin/.trtl/issues/16" target="_blank">here!</a></p>
+                        </div>
+                        <div class="col-6 col-12-medium">
+                           <h3>Free Community Domains</h3>
+                           <p>Domains for community use will always be free. We have created a few "communities" for you to pick from.</p>
+                           <div class="row">
+                              <div class="col-6 col-6-medium">
+                                 <ul>
+                                    <li>*.bot.trtl</li>
+                                    <li>*.dev.trtl</li>
+                                    <li>*.fork.trtl</li>
+                                 </ul>
+                              </div>
+                              <div class="col-6 col-6-medium">
+                                 <ul>
+                                    <li>*.pool.trtl</li>
+                                    <li>*.user.trtl</li>
+                                    <li>*.node.trtl</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <table>
+                        <thead>
+                           <tr>
+                              <th>Domain</th>
+                              <th>Price</th>
+                              <th>Term</th>
+                           </tr>
                         </thead>
                         <tbody>
-                            
-                                <tr>
-                                    <th scope="row" class="text-secondary">6+ Characters</th>
-                                    <td>15,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
-                                <tr>
-                                    <th class="text-secondary">5 Characters</th>
-                                    <td>150,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
-                                <tr>
-                                    <th class="text-secondary" scope="row">4 Characters</th>
-                                    <td>375,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
-                                <tr>
-                                    <th class="text-secondary" scope="row">3 Characters</th>
-                                    <td>750,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
-                                <tr>
-                                    <th class="text-secondary" scope="row">2 Characters</th>
-                                    <td>1,500,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
-                                <tr>
-                                    <th class="text-secondary" scope="row">1 Character</th>
-                                    <td>15,000,000 TRTL</td>
-                                    <td class="text-secondary">1 Year</td>
-                                </tr>
+                           <tr>
+                              <td>6+ Characters</td>
+                              <td>15,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
+                           <tr>
+                              <td>5 Characters</td>
+                              <td>150,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
+                           <tr>
+                              <td>4 Characters</td>
+                              <td>375,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
+                           <tr>
+                              <td>3 Characters</td>
+                              <td>750,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
+                           <tr>
+                              <td>2 Characters</td>
+                              <td>1,500,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
+                           <tr>
+                              <td>1 Character</td>
+                              <td>15,000,000 TRTL</td>
+                              <td>1 Year</td>
+                           </tr>
                         </tbody>
-                        </table>
-                    </p>
-                </div>
-                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4"><h1>Simple pricing</h1><p>
-                    We made an easy url-length based pricing model that works best for most users. If you'd like to know more about the Free Tier of domains we offer, click <a href="https://github.com/turtlecoin/.trtl/issues/16">here!</a>
-                </p>
-                <p>Domains for community use will always be free. We have created a few "communities" for you to pick from.</p>
-                <table class="table table-borderless">
-                     <thead class="thead-light">
-                        <tr>
-                        <th colspan=3 scope="col">Free Community Domains</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>*.bot.trtl</td>
-                            <td>*.dev.trtl</td>
-                            <td>*.fork.trtl</td>
-                        </tr>
-                        <tr>
-                            <td>*.pool.trtl</td>
-                            <td>*.user.trtl</td>
-                            <td>*.node.trtl </td>
-                        </tr>
-                    </tbody>
-                    </table>
-            </div>
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-10 col-md-8 col-lg-11 col-xl-8" id="#faq">
-                        <h1 class="heading">Frequently Asked Questions</h1>
-
-            <br />
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#application"
-                    >
-                        ⌄ How do I get a .trtl domain?
-                    </h2>
-                    <div class="collapse" id="application">
-                        <p class="text-secondary">
-                            Fill out an application, give us your dns info for
-                            your site, and point your servers at your new
-                            domain. It's pretty simple for most aspiring
-                            webmasters, and there are guides coming soon.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#what"
-                    >
-                        ⌄ What do I get with a .trtl domain?
-                    </h2>
-                    <div class="collapse" id="what">
-                        <p class="text-secondary">
-                            For the moment you get either a CNAME or A/AAAA
-                            record. Once everything is completely automated
-                            we'll looking into offering full sub-domain space.
-                            For the moment if you get the-box.trtl then in 
-                            the future you would have the option to fully
-                            use the whole sub-domain. So right now all you'll
-                            get is the-box.trtl and be able to point it at an 
-                            IP address or CNAME.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#certs"
-                    >
-                        ⌄ Can I use LetsEncrypt?
-                    </h2>
-                    <div class="collapse text-secondary" id="certs">
-                        <p>
-                            Certificates are a technical limitation that we
-                            haven't overcome at the moment. Read more about this
-                            issue <a href="https://community.letsencrypt.org/t/do-you-support-opennic-top-level-domains/4473">here</a>.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#prices"
-                    >
-                        ⌄ How much are .trtl domains?
-                    </h2>
-                    <div class="collapse text-secondary" id="prices">
-                        <p>
-                            Currently our pricing is based on the length of the name, for a one year term. We're always looking at better ways to do things though, so keep your eyes peeled and you just might spot a deal that works for your project.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#applicationprocess"
-                    >
-                        ⌄ What's going on with my application?
-                    </h2>
-                    <div class="collapse text-secondary" id="applicationprocess">
-                        <p>
-                            All applications go through a review process for now
-                            until we can automate the approval process. Leave us
-                            a message on github or check the status of your
-                            application.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#billing"
-                    >
-                        ⌄ How does recurring billing work?
-                    </h2>
-                    <div class="collapse text-secondary" id="billing">
-                        <p>
-                            The application that you submit to get your domain
-                            also serves as our primary form of contact and
-                            record keeping for your account. There is no private
-                            support or email other than Github Issues.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#refund1"
-                    >
-                        ⌄ Can I have a refund?
-                    </h2>
-                    <div class="collapse text-secondary" id="refund1">
-                        <p>No.</p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#refund2"
-                    >
-                        ⌄ No seriously, can I get a refund?
-                    </h2>
-
-                    <div class="collapse text-secondary" id="refund2">
-                        <p>
-                            This service distributes all profits back into the
-                            community by automatically dispersing the funds into
-                            block rewards for miners over a period of a few
-                            blocks. No amount of begging or pleading will help.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#lease"
-                    >
-                        ⌄ Can I register for longer than a year?
-                    </h2>
-                    <div class="collapse text-secondary" id="lease">
-                        <p>
-                            At this time, 1 year is the longest domain lease we
-                            offer.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#endof1yr"
-                    >
-                        ⌄ What happens after 1 year?
-                    </h2>
-                    <div class="collapse text-secondary" id="endof1yr">
-                        <p>
-                            If the renewal fee has not been paid by the expiry
-                            date then the domain goes into a 15 day rest period before
-                            being made available again to be used. During this 15 day
-                            rest period all dns records related will be purged and
-                            the prior owner is able to process a new application to
-                            obtain the name again.
-                        </p>
-                    </div>
-                    <h2
-                        class="heading pointer"
-                        data-toggle="collapse"
-                        href="#fineprint"
-                    >
-                        ⌄  Fine Print
-                    </h2>
-                    <div class="collapse text-secondary" id="fineprint">
-                        <p>
-                            This system is supposed to be used, there is no place for
-                            squatting. In order for this system to be fair and work out
-                            well for all here are some simple guidelines to qualify
-                            for "in use" status:
-                        </p>
-                        <ol>
-                            <li>
-                                there is an inital 45 day grace period to actually use
-                                the domain. Coming soon, ads, parking type pages are not
-                                eligible to qualify for "in use".
-                            </li>
-                            <li>
-                                once this grace period has finished and the domain is
-                                "in use" whatever it is must remain up 24/7. After 72hrs
-                                on downtime the domain is returned to the pool.
-                            </li>
-                            <li>
-                                when a domain is lost for not being "in use" the domain is
-                                unavailable for 15 days. During this time a case could be
-                                put forth to have the domain returned. Else wait for domain
-                                to become available again.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
- 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <div class="row">
-                    <div class="col">
-                        <center>
-                            <p class="text-muted muted">
-                                <small>Made with &hearts; by the TurtleCoin Developers</small>
-                            </p>
-                            <p class="text-muted muted">
-                                <a href="https://turtlepay.io"><img src="https://badge.turtlepay.io/" alt="Powered by TurtlePay" /></a>
-                            </p>
-                        </center></div>
-                </div>
-            <script>
-                //close faq toggle 
-               $('body').on('click', '[data-toggle="collapse"]', function () {
-                var collapsedId = $(this).attr('href');
-                var isVisible = $(collapsedId + ' .panel-body').is(':visible');
-
-                    if (isVisible == true) {
-                        $(collapsedId).collapse('hide');
-                        return false;
-                    }
-                })
-           </script>
-           <small>
-                <div class="float-left">&nbsp;&nbsp;&nbsp;
-                    <a href="http://ns1.turtlecoin.lol"  class="text-success"target="_blank">π</a>
-                    <a href="http://ns2.turtlecoin.lol"  class="text-success"target="_blank">π</a>
-                </div><br
-           </small>
-    </body>
+                     </table>
+                  </div>
+               </div>
+            </section>
+            <!-- Second Section -->
+            <section class="main">
+               <header class="major">
+                  <h2>Frequently Asked Questions</h2>
+               </header>
+               <div class="row">
+                  <div class="col-10 col-12-medium">
+                     <h3>How do I get a .trtl domain?</h3>
+                     <p class="content">Fill out an application, give us your dns info for your site, and point your servers at your new domain. It's pretty simple for most aspiring webmasters, and there are guides coming soon.</p>
+                     <h3>What do I get with a .trtl domain?</h3>
+                     <p class="content">For the moment you get either a CNAME or A/AAAA record. Once everything is completely automated we'll looking into offering full sub-domain space. For the moment if you get the-box.trtl then in the future you would have the option to fully use the whole sub-domain. So right now all you'll get is the-box.trtl and be able to point it at an IP address or CNAME.</p>
+                     <h3>Can I use LetsEncrypt?</h3>
+                     <p class="content">Certificates are a technical limitation that we haven't overcome at the moment.<br /> Read more about this issue <a href="https://community.letsencrypt.org/t/do-you-support-opennic-top-level-domains/4473 target="_blank"">here</a>.</p>
+                     <h3>How much are .trtl domains?</h3>
+                     <p class="content">Currently our pricing is based on the length of the name, for a one year term. We're always looking at better ways to do things though, so keep your eyes peeled and you just might spot a deal that works for your project.</p>
+                     <h3>What's going on with my application?</h3>
+                     <p class="content">All applications go through a review process for now until we can automate the approval process. Leave us a message on github or check the status of your application.</p>
+                     <h3>How does recurring billing work?</h3>
+                     <p class="content">The application that you submit to get your domain also serves as our primary form of contact and record keeping for your account. There is no private support or email other than Github Issues.</p>
+                     <h3>Can I have a refund?</h3>
+                     <p class="content">No.</p>
+                     <h3>No seriously, can I get a refund?</h3>
+                     <p class="content">This service distributes all profits back into the community by automatically dispersing the funds into block rewards for miners over a period of a few blocks. No amount of begging or pleading will help.</p>
+                     <h3>Can I register for longer than a year?</h3>
+                     <p class="content">At this time, 1 year is the longest domain lease we offer.</p>
+                     <h3>What happens after 1 year?</h3>
+                     <p class="content">If the renewal fee has not been paid by the expiry date then the domain goes into a 15 day rest period before being made available again to be used. During this 15 day rest period all dns records related will be purged and the prior owner is able to process a new application to obtain the name again.</p>
+                     <h3>Fine Print</h3>
+                     <p>This system is supposed to be used, there is no place for squatting. In order for this system to be fair and work out well for all here are some simple guidelines to qualify for "in use" status:</p>
+                     <ol>
+                        <li>There is an inital 45 day grace period to actually use the domain. Coming soon, ads, parking type pages are not eligible to qualify for "in use".</li>
+                        <li>Once this grace period has finished and the domain is "in use" whatever it is must remain up 24/7. After 72hrs on downtime the domain is returned to the pool.</li>
+                        <li>When a domain is lost for not being "in use" the domain is unavailable for 15 days. During this time a case could be put forth to have the domain returned. Else wait for domain to become available again.</li>
+                     </ol>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <!-- Footer -->
+         <footer id="footer">
+            <p class="copyright">Made with ♥ by the TurtleCoin Developers</p>
+            <p class="copyright badge"><a href="https://turtlepay.io" target="_blank"><img src="https://badge.turtlepay.io/" alt="Powered by TurtlePay"></a></p>
+         </footer>
+      </div>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+   </body>
 </html>
