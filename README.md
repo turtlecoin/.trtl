@@ -47,7 +47,7 @@ Additionally, it may not be any of the [reserved domains](https://github.com/tur
 
 ## TODO
 
-- [ ] domain contact crawlier for whois-like info. indexed from approved domain applications  
+- [ ] domain contact crawler for whois-like info. indexed from approved domain applications  
 - [ ] repo monitor agent  
 - [x] Mentioning domain guidelines
 - [x] Issue templates for domain application and complaints
