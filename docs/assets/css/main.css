@@ -3359,6 +3359,8 @@ input, select, textarea {
 			#main button:hover,
 			#main .button:hover {
 				background-color: rgba(222, 222, 222, 0.25);
+				color: #212721!important;
+				border-color: #212721;
 			}
 
 			#main input[type="submit"]:active,
@@ -3367,6 +3369,8 @@ input, select, textarea {
 			#main button:active,
 			#main .button:active {
 				background-color: rgba(222, 222, 222, 0.5);
+				color: #212721!important;
+				border-color: #212721;
 			}
 
 			#main input[type="submit"].icon:before,
@@ -3375,6 +3379,14 @@ input, select, textarea {
 			#main button.icon:before,
 			#main .button.icon:before {
 				color: #00853d;
+			}
+			
+			#main input[type="submit"].icon:hover:before,
+			#main input[type="reset"].icon:hover:before,
+			#main input[type="button"].icon:hover:before,
+			#main button.icon:hover:before,
+			#main .button.icon:hover:before {
+				color: #212721;
 			}
 
 			#main input[type="submit"].primary,
