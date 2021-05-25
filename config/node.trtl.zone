@@ -5,4 +5,6 @@
 ; turtlepublicaccess       IN        A       164.93.1.31 ; turtlepublicaccess.node.trtl
 $ORIGIN node.trtl.
 
+teglicho    IN  A  78.142.26.26; Issue #57
+
 ; add your domain below here
